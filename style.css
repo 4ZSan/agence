@@ -1,0 +1,86 @@
+/*******************************/
+/*Navbar settings*/
+/*******************************/
+
+.navbar{
+  border-bottom: solid 1px black;
+}
+
+.navbar-container{
+  padding-right: 5%;
+  padding-left: 5%
+}
+
+/*******************************/
+/*Global content frame settings*/
+/*******************************/
+
+.content-frame {
+  height: calc(100vh - 40px) !important;
+}
+
+.content-frame-title{
+  margin: auto;
+  text-align: center;
+}
+
+
+.left-img-frame{
+  border-right: solid 1px black;
+  border-top: solid 1px black;
+  border-bottom: solid 1px black;
+}
+
+.right-img-frame{
+  border-left: solid 1px black;
+  border-top: solid 1px black;
+  border-bottom: solid 1px black;
+
+}
+
+.right-text-frame{
+  border-top: solid 1px black;
+}
+
+/*******************************/
+/*Inside content frame settings*/
+/*******************************/
+
+.row-button{
+  border-top: solid 1px black;
+  height: 30%;
+  text-align: center;
+  /*align-items: center;*/
+}
+
+.mid-button{
+  border-left: solid 1px black;
+  border-right: solid 1px black;
+}
+
+
+.title-section{
+  text-align: center;
+  height: 20%;
+  align-items: center;
+}
+
+.sub-title-section{
+  text-align: center;
+  height: 10%;
+  align-items: center;
+}
+
+.content-section{
+  height: 40%;
+  padding-right: 10%;
+  padding-left: 10%;
+  text-align: center;
+  align-items: center;
+}
+
+.read-more-section{
+  height: 10%;
+  text-align: center;
+  align-items: center;
+}
