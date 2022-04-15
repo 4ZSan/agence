@@ -19,11 +19,20 @@
   height: calc(100vh - 40px) !important;
 }
 
+.title-background{
+  background-image: url(./images/homepage.jpg);
+  background-position: center;
+}
+
 .content-frame-title{
   margin: auto;
   text-align: center;
 }
 
+.content-frame-title > h1{
+  font-size: 7rem;
+  font-weight: bold;
+}
 
 .left-img-frame{
   border-right: solid 1px black;
@@ -58,6 +67,9 @@
   border-right: solid 1px black;
 }
 
+.button1{
+  background-image: url(./images/picto_agence.png);
+}
 
 .title-section{
   text-align: center;
@@ -68,7 +80,6 @@
 .sub-title-section{
   text-align: center;
   height: 10%;
-  align-items: center;
 }
 
 .content-section{
@@ -76,7 +87,6 @@
   padding-right: 10%;
   padding-left: 10%;
   text-align: center;
-  align-items: center;
 }
 
 .read-more-section{
