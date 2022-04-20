@@ -74,22 +74,26 @@
 }
 
 .button-content{
-  padding: 6%;    /*Attention au responsive avec ce paramètre*/
+  /*padding: 6%;*/    /*Attention au responsive avec ce paramètre*/
 }
 
 .title-section{
   text-align: center;
-  height: 20%;
+  /*height: 20%;*/
   align-items: center;
 }
 
 .sub-title-section{
   text-align: center;
-  height: 10%;
+  /*height: 10%;*/
+}
+
+.test{
+  height: 70%
 }
 
 .content-section{
-  height: 40%;
+  /*height: 40%;*/
   padding-right: 10%;
   padding-left: 10%;
   text-align: center;
