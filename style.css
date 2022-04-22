@@ -51,6 +51,24 @@
   border-top: solid 1px black;
 }
 
+.agence-background{
+  background-image: url(./images/agence.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.website-background{
+  background-image: url(./images/website.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.formation-background{
+  background-image: url(./images/formation.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
 /*******************************/
 /*Inside content frame settings*/
 /*******************************/
@@ -75,10 +93,17 @@
 
 .row-button-content{
   height: 100%;
+  background-color: #695E4A
 }
 
 .col-button-content{
   margin: auto;
+}
+
+.button-text{
+  color: #DAD3CD;
+  font-weight: bold;
+
 }
 
 .row-upper-content{
@@ -87,6 +112,8 @@
 
 .col-upper-content{
   margin: auto;
+  padding-left: 10%;
+  padding-right: 10%;
 }
 
 .title-section{
@@ -101,8 +128,8 @@
 }
 
 .content-section{
-  padding-right: 10%;
-  padding-left: 10%;
+  padding-right: 8%;
+  padding-left: 8%;
   text-align: center;
 }
 
@@ -110,6 +137,35 @@
   height: 10%;
   text-align: center;
   align-items: center;
+}
+
+h2{
+  color: #ED3125;
+  font-weight: bold;
+  font-size: 3.5rem;
+}
+
+h3{
+  color : #000000;
+  font-weight: bold;
+  font-size: 2rem;
+}
+
+.content-frame-button{
+  background-color: #DAD3CD;
+  border-color: #DAD3CD;
+  color: #ED3125;
+  font-weight: bold;
+  width: 35%;
+  height: 30%;
+  border-radius: 30px;
+
+}
+
+.content-frame-button:hover{
+  background-color: #ED3125;
+  border-color: #ED3125;
+  color: #DAD3CD;
 }
 
 /*******************************/
