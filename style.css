@@ -21,6 +21,8 @@
 
 .title-background{
   background-image: url(./images/homepage.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
   background-position: center;
 }
 
@@ -112,8 +114,8 @@
 
 .col-upper-content{
   margin: auto;
-  padding-left: 10%;
-  padding-right: 10%;
+  padding-left: 5%;
+  padding-right: 5%;
 }
 
 .title-section{
