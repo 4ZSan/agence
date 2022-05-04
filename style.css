@@ -19,6 +19,10 @@
   height: calc(100vh - 67px) !important;
 }
 
+.footer-frame{
+  height: calc(100vh - 67px) !important;
+}
+
 .title-background{
   background-image: url(./images/homepage.jpg);
   background-repeat: no-repeat;
