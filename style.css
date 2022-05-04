@@ -190,13 +190,23 @@ h3{
 /*Footer settings*/
 /*******************************/
 
-.form-container{
-  border-bottom: 1px solid black;
+.footer{
+  text-align: center;
 }
 
-.footer{
-  padding-top: 2%;
-  text-align: center;
+.footer-row{
+  background: url(./images/form_background.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.footer-col{
+  margin: auto;
+}
+
+.form-col{
+  padding-left: 15%;
+  padding-right: 15%;
 }
 
 .row-form-title{
@@ -213,4 +223,26 @@ h3{
 .row-form-button{
   padding-top: 2%;
   padding-bottom: 2%;
+}
+
+.col-from-button{
+  margin: auto;
+  text-align: center;
+}
+
+.form-message{
+  padding-bottom: 5%;
+}
+
+.row-footer{
+  padding-top:4%;
+}
+
+.py-4{
+  padding-bottom: 0% !important;
+}
+
+.form-button{
+  padding-top: 1%;
+  padding-bottom: 1%;
 }
