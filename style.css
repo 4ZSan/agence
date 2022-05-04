@@ -152,7 +152,7 @@ h2{
 }
 
 h3{
-  color : #000000;
+  color: #000000;
   font-weight: bold;
   font-size: 2rem;
 }
@@ -194,18 +194,29 @@ h3{
 /*Footer settings*/
 /*******************************/
 
-.form-container{
-  border-bottom: 1px solid black;
-}
-
 .footer{
-  padding-top: 2%;
   text-align: center;
 }
 
+.footer-row{
+  background: url(./images/form_background.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.footer-col{
+  margin: auto;
+}
+
+.form-col{
+  padding-left: 15%;
+  padding-right: 15%;
+}
+
 .row-form-title{
-  padding-top: 5%;
-  padding-bottom: 5%;
+  padding-top: 2%;
+  padding-bottom: 2%;
+  text-align: center;
 }
 
 .row-form-content{
@@ -216,4 +227,26 @@ h3{
 .row-form-button{
   padding-top: 2%;
   padding-bottom: 2%;
+}
+
+.col-from-button{
+  margin: auto;
+  text-align: center;
+}
+
+.form-message{
+  padding-bottom: 5%;
+}
+
+.row-footer{
+  padding-top:4%;
+}
+
+.py-4{
+  padding-bottom: 0% !important;
+}
+
+.form-button{
+  padding-top: 1%;
+  padding-bottom: 1%;
 }
