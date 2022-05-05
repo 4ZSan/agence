@@ -195,9 +195,10 @@ h3{
 }
 
 .footer-row{
-  background: url(./images/form_background.jpg);
+  background: url(./images/form_background.png);
   background-repeat: no-repeat;
   background-size: cover;
+  margin: auto;
 }
 
 .footer-col{
@@ -235,7 +236,9 @@ h3{
 }
 
 .row-footer{
-  padding-top:4%;
+  padding-top: 4%;
+  color: #ffffff;
+  font-weight: bold !important;
 }
 
 .py-4{
