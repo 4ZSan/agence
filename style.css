@@ -14,6 +14,12 @@
 .nav-link{
   font-weight: bold;
   font-size: 1.1rem;
+  transition: 1s cubic-bezier(0.5, 0, 0.5, 1);
+}
+
+.nav-link:hover{
+  transition: 1s cubic-bezier(0.5, 0, 0.5, 1);
+  color: #ED3125 !important;
 }
 
 /*******************************/
@@ -74,6 +80,18 @@
   background-image: url(./images/formation.png);
   background-repeat: no-repeat;
   background-size: cover;
+}
+
+.well {
+	transition: 1s cubic-bezier(0.5, 0, 0.5, 1);
+}
+
+.panel {
+	cursor: default;
+}
+
+body{
+  overflow: hidden;
 }
 
 /*******************************/
@@ -166,6 +184,7 @@ h3{
   width: 35%;
   height: 30%;
   border-radius: 30px;
+  transition: 1s cubic-bezier(0.5, 0, 0.5, 1);
 
 }
 
@@ -173,6 +192,7 @@ h3{
   background-color: #ED3125;
   border-color: #ED3125;
   color: #DAD3CD;
+  transition: 1s cubic-bezier(0.5, 0, 0.5, 1);
 }
 
 /*******************************/

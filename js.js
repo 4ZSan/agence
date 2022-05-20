@@ -5,9 +5,9 @@
 		scdir, hold = false;
 
 	function _scrollY(obj) {
-		var slength, plength, pan, step = 100,
-			vh = window.innerHeight / 100,
-			vmin = Math.min(window.innerHeight, window.innerWidth) / 100;
+		var slength, plength, pan, step = 93,
+			vh = window.innerHeight / 93,
+			vmin = Math.min(window.innerHeight, window.innerWidth) / 93;
 		if ((this !== undefined && this.id === 'well') || (obj !== undefined && obj.id === 'well')) {
 			pan = this || obj;
 			plength = parseInt(pan.offsetHeight / vh);
